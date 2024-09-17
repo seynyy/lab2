@@ -14,7 +14,7 @@ namespace lab2
             if (x >= 1) 
                 y = Math.Log(x);
             else if (x > -1 && x < 1)
-                y = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(1.8, 3));
+                y = Math.Sqrt(Math.Pow(x, 2) + Math.Pow(1.8, 3))/1.8;
             else
                 y = Math.Exp(x);
 
@@ -32,7 +32,15 @@ namespace lab2
             double result = (first + second + third)/3;
 
             Console.WriteLine("----------------------");
-            Console.WriteLine($"Середнє арифметичне: {result}");
+            if (first == result)
+                Console.WriteLine($"Середнє: {first}");
+            else if (second == result)
+                Console.WriteLine($"Середнє: {second}");
+            else if (third == result)
+                Console.WriteLine($"Середнє: {third}");
+            else
+                Console.WriteLine("Середнього не існує");
+            
             Console.WriteLine("----------------------");
 
             //task3
