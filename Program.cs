@@ -29,14 +29,12 @@ namespace lab2
             double second = double.Parse(Console.ReadLine());
             double third  = double.Parse(Console.ReadLine());
 
-            double result = (first + second + third)/3;
-
             Console.WriteLine("----------------------");
-            if (first == result)
+            if (first > second && second < third || first < second && second > third)
                 Console.WriteLine($"Середнє: {first}");
-            else if (second == result)
+            else if (second > first && first < third || second < first && second > third)
                 Console.WriteLine($"Середнє: {second}");
-            else if (third == result)
+            else if (third > first && third < second || third < first && third > second)
                 Console.WriteLine($"Середнє: {third}");
             else
                 Console.WriteLine("Середнього не існує");
@@ -49,7 +47,8 @@ namespace lab2
             double h;   //Висота
             double s;   //Площа
 
-            Console.WriteLine("Введіть номер елементу:\r\n1) Катет\r\n2) Гіпотенуза\r\n3) Висота, яка опущена з вершини прямого кута на гіпотенузу \r\n4) Площа");
+            Console.WriteLine("Введіть номер елементу:\r\n1) Катет\r\n2) Гіпотенуза");
+            Console.WriteLine("3) Висота, яка опущена з вершини прямого кута на гіпотенузу \r\n4) Площа");
             int element = int.Parse(Console.ReadLine());
             switch (element)
             {
