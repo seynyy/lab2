@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\lab2\\lab2.csproj": {}
+    "c:\\Projects\\lab2\\lab2.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\lab2\\lab2.csproj": {
+    "c:\\Projects\\lab2\\lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\lab2\\lab2.csproj",
+        "projectUniqueName": "c:\\Projects\\lab2\\lab2.csproj",
         "projectName": "lab2",
-        "projectPath": "C:\\Projects\\lab2\\lab2.csproj",
+        "projectPath": "c:\\Projects\\lab2\\lab2.csproj",
         "packagesPath": "C:\\Users\\zenia\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\lab2\\obj\\",
+        "outputPath": "c:\\Projects\\lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zenia\\AppData\\Roaming\\NuGet\\NuGet.Config"
