@@ -30,11 +30,11 @@ namespace lab2
             double third  = double.Parse(Console.ReadLine());
 
             Console.WriteLine("----------------------");
-            if (first > second && second < third || first < second && second > third)
+            if (second > first && first > third || second < first && first < third)
                 Console.WriteLine($"Середнє: {first}");
-            else if (second > first && first < third || second < first && second > third)
+            else if (first > second && second > third || first < second && second < third)
                 Console.WriteLine($"Середнє: {second}");
-            else if (third > first && third < second || third < first && third > second)
+            else if (first > third && third > second || first < third && third < second)
                 Console.WriteLine($"Середнє: {third}");
             else
                 Console.WriteLine("Середнього не існує");
